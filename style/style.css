@@ -1,0 +1,177 @@
+
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('../fonts/raleway-light.woff2') format('woff2'),
+         url('../fonts/raleway-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/raleway-bold.woff2') format('woff2'),
+         url('../fonts/raleway-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular.woff2') format('woff2'),
+         url('../fonts/raleway-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*kolor #27cfab  */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 1px solid red;
+    
+}
+
+body {
+    font-family: 'ralewayregular' , sans-serif;
+    background-color: #ffffff;
+    
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+
+[class*="container"] {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+}
+
+
+
+/*---------------------------header bar---------------------*/
+
+
+
+.header-container nav {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.header-container ul li {
+    display:inline-block;
+}
+
+
+/*---------------------------header slider---------------------*/
+
+
+
+#left-arrow {
+    position: absolute;
+    top: 70px;;
+    left: 0;
+}
+
+#right-arrow {
+    position: absolute;
+    top: 70px;;
+    right: 0;
+}
+
+
+.header-slider-header {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+.header-slider-article {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 130px;
+}
+
+.header-slider-button {
+    width: 150px;
+    height: 50px;
+    background-color: #27cfab;
+    position: absolute;
+    right: 100px;;
+    top: 250px;
+}
+
+
+
+/*---------------------------main---------------------*/
+
+
+main {
+    height: 230px;
+}
+.main-box-left, .main-box-middle, .main-box-right {
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;  
+}
+
+.main-box-left  {
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.main-box-right {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.main-box-middle  {
+    position: absolute;
+    left: 420px;
+    top: 10px;
+}
+
+/*---------------------------aside cennik---------------------*/
+
+.price {
+    height: 500px;
+}
+
+.aside-box>* {
+    display: inline-block;
+}
+
+/*---------------------------aside kontakt---------------------*/
+
+.contact {
+    height: 500px;
+}
+
+/*---------------------------footer---------------------*/
+
+.footer-container {
+    height: 300px;
+}
+
+.footer-social figure {
+    display: inline-block;
+}
