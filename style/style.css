@@ -41,6 +41,7 @@
 body {
     font-family: 'ralewayregular' , sans-serif;
     background-color: #ffffff;
+    color: grey;
     
 }
 
@@ -240,16 +241,30 @@ main {
 /*---------------------------aside cennik---------------------*/
 
 
-
 .price {
     height: 500px;
-    background-color: lightgrey;
+    background-color: #eff1f1;
+    
 }
 
 .aside-container price {
     width: 100%;
     height: 100%;
 }
+
+.aside-container-title{
+    padding-top: 35px;
+    color: grey;
+}
+
+.aside-container-bar {
+    height: 10px;
+    width: 350px;
+    background-color: #27cfab;
+    position: absolute;
+    left: 0;
+}
+
 
 .aside-box {
     width: 100%;
@@ -309,6 +324,12 @@ main {
     top: 0;
 }
 
+
 .footer-social figure {
     display: inline-block;
 }
+
+.footer-logo span {
+    font-family: 'ralewaybold';
+}
+
