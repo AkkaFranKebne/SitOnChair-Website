@@ -1,4 +1,6 @@
 
+/*kolor #27cfab  */
+
 @font-face {
     font-family: 'ralewaylight';
     src: url('../fonts/raleway-light.woff2') format('woff2'),
@@ -26,13 +28,13 @@
 
 }
 
-/*kolor #27cfab  */
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    border: 1px solid red;
+    
+
     
 }
 
@@ -63,10 +65,25 @@ a:visited {
 
 /*---------------------------header bar---------------------*/
 
+body>header {
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+    height: 50px;
+    padding: 13px;
+}
+header span {
+    color: #27cfab;
+}
 
+nav {
+    width: 600px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
 
-.header-container nav {
-    width: 50%;
+nav ul {
     position: absolute;
     right: 0;
     top: 0;
@@ -74,22 +91,40 @@ a:visited {
 
 .header-container ul li {
     display:inline-block;
+    padding-left: 30px;
 }
 
 
 /*---------------------------header slider---------------------*/
 
+.slider {
+    background-image: linear-gradient(#ffffff, #c2c7c9);
+    background-color: lightgray;
+    height: 550px;
+}
 
+.header-photo img{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    height: 400px;
+    width: 580px;
+    
+}
 
 #left-arrow {
+    color: #27cfab;
+    font-size: 80px;
     position: absolute;
-    top: 70px;;
+    top: 220px;
     left: 0;
 }
 
 #right-arrow {
+    color: #27cfab;
+    font-size: 80px;
     position: absolute;
-    top: 70px;;
+    top: 220px;
     right: 0;
 }
 
@@ -97,68 +132,156 @@ a:visited {
 .header-slider-header {
     width: 50%;
     position: absolute;
-    right: 0;
-    top: 30px;
+    right: 100px;
+    top: 150px;
+    text-align: center;
+    font-family: 'ralewaybold';
 }
 
 .header-slider-article {
-    width: 50%;
+    width: 40%;
+    height: 200px;
+    text-align: center;
+    color: grey;
+    line-height: 150%;
     position: absolute;
-    right: 0;
-    top: 130px;
+    right: 150px;
+    top: 200px;
 }
 
 .header-slider-button {
-    width: 150px;
+    width: 250px;
     height: 50px;
     background-color: #27cfab;
     position: absolute;
-    right: 100px;;
-    top: 250px;
+    right: 270px;
+    top: 320px;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 1.3rem;
+    border-radius: 10px;
 }
-
-
 
 /*---------------------------main---------------------*/
 
-
 main {
-    height: 230px;
+    height: 350px;
+    padding-top: 20px;
 }
+
 .main-box-left, .main-box-middle, .main-box-right {
-    width: 30%;
-    height: 200px;
+    width: 28%;
+    height: 230px;
     display: inline-block;
-    vertical-align: top;  
+    vertical-align: top; 
+    padding-top: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative:
 }
 
 .main-box-left  {
     position: absolute;
     left: 0;
     top: 10px;
+    background-image: url(../images/box1_img.jpg);
 }
 
 .main-box-right {
+    height: 260px;
     position: absolute;
     right: 0;
     top: 10px;
+    border: 1px solid lightgrey;
 }
 
 .main-box-middle  {
     position: absolute;
-    left: 420px;
+    left: 430px;
     top: 10px;
+    background-image: url(../images/box2_img.jpg);
+}
+
+
+.main-box-cover{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(255,255,255, 0.30);
+    font-family: 'ralewaybold';
+    font-size: 1.1rem;
+    padding-top: 12px;
+    padding-left: 14px;
+    position: absolute;
+    top: 150px;
+}
+
+.main-box-right .main-box-cover {
+    position: absolute;
+    top: 10px;
+}
+
+
+.main-box-bar {
+    height: 7px;
+    width: 150px;
+    background-color: #27cfab;
+}
+
+.main-box-article {
+    color: grey;
+    font-size: 14px;
+    font-family: 'ralewayregular';
+    line-height: 150%;
+    padding-top: 10px;
+    padding-right: 20px;
 }
 
 /*---------------------------aside cennik---------------------*/
 
+
+
 .price {
     height: 500px;
+    background-color: lightgrey;
+}
+
+.aside-container price {
+    width: 100%;
+    height: 100%;
+}
+
+.aside-box {
+    width: 100%;
+    height: 100%;
 }
 
 .aside-box>* {
     display: inline-block;
+    width: 30%;
+    height: 400px;
+    vertical-align: top;
 }
+
+
+.aside-box-left  {
+    position: absolute;
+    left: 0;
+    top: 90px;
+}
+
+.aside-box-right {
+    position: absolute;
+    right: 0;
+    top: 90px;
+}
+
+.aside-box-middle  {
+    position: absolute;
+    left: 420px;
+    top: 90px;
+}
+
 
 /*---------------------------aside kontakt---------------------*/
 
@@ -170,6 +293,20 @@ main {
 
 .footer-container {
     height: 300px;
+}
+
+
+.footer-logo  {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.footer-social  {
+    position: absolute;
+    right: 200px;
+    top: 0;
 }
 
 .footer-social figure {
