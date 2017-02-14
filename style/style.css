@@ -290,7 +290,7 @@ main {
 }
 
 
-.aside-box {
+.aside-box-price {
     width: 100%;
     height: 650px;
 }
@@ -484,20 +484,128 @@ main {
 /*---------------------------aside kontakt---------------------*/
 
 .contact {
+    height: 650px;
+}
+
+.aside-box-price {
+    width: 100%;
     height: 500px;
 }
+
+
+.aside-box form {
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+    border: none;
+}
+
+.contact .aside-container-title h2 {
+    position: relative;
+        top: -50px;
+}
+
+input {
+    height: 80px;
+    width: 800px;
+    border: 1px solid #27cfab;
+    display: inline;
+    font-size: 36px;
+    font-family: 'ralewaylight';
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+input#message {
+    height: 200px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #e0e3e4;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #e0e3e4;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #e0e3e4;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #e0e3e4;
+}
+
+.contact figure#red-chair  {
+    height: 210px;
+    width: 264px;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+}
+
+.contact figure#red-chair  img {
+    height: 210px;
+    width: 264px;
+    border-left: auto;
+    border-right: auto;
+}
+    
+.contact figure#agreement {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    border: 1px solid #27cfab;
+    top: 420px;
+    right: 300px;
+    padding-top: 8px;
+    padding-left: 4px;
+}
+
+.contact p {
+    height: 60px;
+    width: 290px;
+    position: absolute;
+    top: 420px;
+    right: 0;
+    padding-top: 8px;
+    padding-left: 4px;
+    font-size: 20px;
+    color: #e0e3e4;
+}
+
+input[type="submit" i]{
+    height: 60px;
+    width: 370px;
+    position: absolute;
+    border: 1px solid #27cfab#27cfab;
+    border-radius: 5px;
+    background-color: #27cfab;
+    top: 510px;
+    right: 0;
+    padding-top: 6px;
+    padding-left: 4px;
+    font-family: 'ralewaybold';
+    font-size: 29px;
+    color: #ffffff;
+}
+
+
 
 /*---------------------------footer---------------------*/
 
 .footer-container {
-    height: 300px;
+    height: 40px;
 }
 
 
 .footer-logo  {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 10px;
 }
 
 
@@ -514,5 +622,9 @@ main {
 
 .footer-logo span {
     font-family: 'ralewaybold';
+}
+
+* {
+    border: 1px solid navy;
 }
 
