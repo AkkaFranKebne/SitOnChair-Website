@@ -58,7 +58,7 @@ a:visited {
 
 
 [class*="container"] {
-    width: 1200px;
+    width: 1325px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -73,9 +73,14 @@ body>header {
     background-color: black;
     color: white;
     letter-spacing: 2px;
-    font-size: 12px;
-    height: 39px;
-    padding: 12px;
+    font-size: 13px;
+    height: 49px;
+    padding-top: 12px;
+}
+
+.header-container{
+    height: 30px;
+    padding-top: 3px;
 }
 header span {
     color: #27cfab;
@@ -104,7 +109,7 @@ nav ul {
 /*---------------------------header slider---------------------*/
 
 .slider {
-    height: 530px;
+    height: 625px;
     background: #ffffff;/* Old Browsers */
     background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 60%, #ceced7 100%); /* FF3.6+ */
     background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(60%, #f6f6f6), color-stop(100%, #ceced7));/* Chrome, Safari4+ */
@@ -117,28 +122,28 @@ nav ul {
 
 .header-photo img{
     position: absolute;
-    top: 80px;
-    left: -24px;;
-    height: 460px;
-    width: 640px;
+    top: 82px;
+    left: -40px;;
+    height: 535px;
+    width: 735px;
     
 }
 
 #left-arrow, #right-arrow {
     color: #27cfab;
-    font-size: 85px;
+    font-size: 90px;
     font-family: 'ralewaylight';
 }
 
 #right-arrow {
     position: absolute;
-    top: 230px;
+    top: 263px;
     right: 9px;
 }
 
 #left-arrow {
     position: absolute;
-    top: 230px;
+    top: 263px;
     left: 9px;
 }
 
@@ -147,10 +152,10 @@ nav ul {
     width: 50%;
     position: absolute;
     right: 115px;
-    top: 155px;
+    top: 160px;
     text-align: center;
     color: black;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .header-slider-header span {
@@ -159,41 +164,56 @@ nav ul {
 }
 
 .header-slider-article {
-    width: 40%;
-    height: 15px;
+    width: 480px;
     text-align: center;
     color: black;
     line-height: 160%;
     font-size: 16px;
-    position: absolute;
-    right: 170px;
-    top: 230px;
+    position: relative;
+    left: 640px;
+    top: 265px;
 }
 
+#paragraph-wide {
+    width: 530px;
+    position: relative;
+    left: -20px;
+    top: 0;
+}
+
+#paragraph-narrow {
+    width: 450px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+
+
 .header-slider-button {
-    width: 290px;
-    height: 60px;
+    width: 340px;
+    height: 65px;
     background-color: #27cfab;
     position: absolute;
-    right: 270px;
-    top: 360px;
+    right: 280px;
+    top: 405px;
     color: white;
     text-align: center;
     padding-top: 16px;
-    font-size: 24px;
+    font-size: 26px;
     border-radius: 10px;
 }
 
 /*---------------------------main---------------------*/
 
 main {
-    height: 360px;
+    height: 445px;
     padding-top: 20px;
 }
 
 .main-box-left, .main-box-middle, .main-box-right {
-    width: 380px;
-    height: 244px;
+    width: 410px;
+    height: 290px;
     display: inline-block;
     vertical-align: top; 
     padding-top: 30px;
@@ -211,8 +231,8 @@ main {
 }
 
 .main-box-right {
-    width: 390px;
-    height: 280px;
+    width: 433px;
+    height: 310px;
     position: absolute;
     right: 0;
     top: 10px;
@@ -221,51 +241,51 @@ main {
 
 .main-box-middle  {
     position: absolute;
-    left: 405px;
+    left: 450px;
     top: 10px;
     background-image: url(../images/box2_img.jpg);
 }
 
 
 .main-box-cover{
-    height: 60px;
+    height: 80px;
     width: 100%;
     background-color: rgba(255,255,255, 0.30);
     font-family: 'ralewaybold';
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: black;
     padding-top: 12px;
     padding-left: 20px;
     position: absolute;
-    top: 170px;
+    top: 197px;
 }
 
 .main-box-right .main-box-cover {
     position: absolute;
-    top: 10px;
+    top: 25px;
 }
 
 
 .main-box-bar {
-    height: 7px;
-    width: 150px;
+    height: 9px;
+    width: 170px;
     background-color: #27cfab;
 }
 
 .main-box-article {
     color: grey;
-    font-size: 16px;
+    font-size: 17px;
     font-family: 'ralewayregular';
     line-height: 150%;
-    padding-top: 15px;
-    padding-right: 35px;
+    padding-top: 25px;
+    padding-right: 45px;
 }
 
 /*---------------------------aside cennik---------------------*/
 
 
 .price {
-    height: 790px;
+    height: 890px;
     background-color: #eff1f1;
     
 }
@@ -625,6 +645,6 @@ input[type="submit" i]{
 }
 
 * {
-    border: 1px solid navy;
+    border: 1px solid orange;
 }
 
