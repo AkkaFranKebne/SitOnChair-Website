@@ -100,6 +100,7 @@ nav ul {
 .header-container ul li {
     display:inline-block;
     padding-left: 52px;
+    padding-top: 5px;
 }
 
 
@@ -164,11 +165,11 @@ nav ul {
     width: 480px;
     text-align: center;
     color: black;
-    line-height: 160%;
-    font-size: 16px;
+    line-height: 150%;
+    font-size: 19px;
     position: relative;
     left: 640px;
-    top: 265px;
+    top: 260px;
 }
 
 #paragraph-wide {
@@ -296,7 +297,7 @@ main {
     height: 120px;
     padding-top: 55px;
     color: grey;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .aside-container-bar {
@@ -447,14 +448,15 @@ main {
     padding-top: 10px;
 }
 
+.first {
+    border-top: 2px solid #ffffff;
+}
+
 .aside-box-right-info:nth-of-type(2n), .aside-box-left-info:nth-of-type(2n) {
     background-color:#e0e3e4;
     color: #a3abae;
 }
 
-.aside-box-left-info:last-of-type {
-    background-color:#ffffff;
-}
 
 .aside-box-right-info:nth-of-type(2n+1), .aside-box-left-info:nth-of-type(2n+1) {
     background-color:#eff1f1;
@@ -489,7 +491,7 @@ main {
     padding-top: 10px;
     border-radius: 7px;
     position: relative;
-    bottom: -35px;
+    bottom: -20px;
     left: 130px;
 }
 
@@ -527,7 +529,7 @@ main {
     position: relative;
     top: -55px;
     color: grey;
-    font-size: 26px;
+    font-size: 27px;
 }
 
 input, textarea {
@@ -645,7 +647,7 @@ input[type="submit" i]{
 
 .footer-social  {
     position: absolute;
-    right: 290px;
+    right: 270px;
     top: 0;
 }
 
@@ -653,6 +655,11 @@ input[type="submit" i]{
 .footer-social figure {
     display: inline-block;
     padding-left: 5px;
+}
+
+.footer-social figure img {
+    height: 40px;
+    width: 40px;
 }
 
 .footer-logo span {
