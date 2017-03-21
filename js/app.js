@@ -16,5 +16,5 @@ document.addEventListener("DOMContentLoaded", function() {
         });  
     }
     
- //dziala, jedynie znika troche za szybko po mouseout, do przemyslenia, jak to poprawic
+ //disappears to fast - to fix
 });
